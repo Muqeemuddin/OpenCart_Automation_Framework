@@ -31,6 +31,10 @@ services:
       - SE_EVENT_BUS_PUBLISH_PORT=4442
 
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      
+      - SE_NODE_MAX_SESSIONS=3                 # allow 5 sessions in parallel
+      
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true 
 
     networks:
 
@@ -50,10 +54,15 @@ services:
       - SE_EVENT_BUS_PUBLISH_PORT=4442
 
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      
+      - SE_NODE_MAX_SESSIONS=3                 # allow 5 sessions in parallel
+      
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true 
 
     networks:
 
       - grid
+     
 
       
 
