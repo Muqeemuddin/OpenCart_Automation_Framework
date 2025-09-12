@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 
-<suite name="Master Suite">
+<suite name="Docker Suite">
 
 <listeners>
 	<listener class-name="utilities.ExtentReportManager"/>
