@@ -31,7 +31,7 @@ public class TC003_LoginDataDrivenTest extends BaseTestClass{
 		lgnPage.clickLogin();
 		logger.info("clicked login button.....");
 		
-		//MyAccountPAge
+		//MyAccountPage
 		MyAccountPage myAccPage = new MyAccountPage(driver);
 		boolean targetPage = myAccPage.isMyAccountPageExists();
 		

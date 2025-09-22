@@ -9,17 +9,18 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="Master"/>
+        <include name="Sanity"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC002_LoginTest">
+      <class name="testCases.TC004_LogoutTest">
         <methods>
-          <include name="verify_account_login"/>
+          <include name="verify_account_logout_HomePage"/>
+          <include name="verify_account_logout"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- testCases.TC004_LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Grouping Suite] -->

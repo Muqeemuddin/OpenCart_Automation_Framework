@@ -10,7 +10,7 @@ import testBase.BaseTestClass;
 
 public class TC002_LoginTest extends BaseTestClass{
 	
-	@Test(groups={"sanity","Master"})
+	@Test(groups={"Sanity","Master"})
 	public void verify_account_login() {
 		
 		try {

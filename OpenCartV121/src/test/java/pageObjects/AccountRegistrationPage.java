@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -44,6 +46,9 @@ public class AccountRegistrationPage extends BasePage {
 	
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement successMessage;
+	
+	@FindBy(xpath="//div[@class='list-group']/a")
+	List<WebElement> optionsList;
 		
 	//Actions
 	public void setFirstName(String fName) {
@@ -93,6 +98,15 @@ public class AccountRegistrationPage extends BasePage {
 			return e.getMessage();
 		}
 		
+	}
+	
+	public boolean isLogoutDispalyed() {
+		for(WebElement element:optionsList) {
+			if(element.getText().equals("Logout")) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 }

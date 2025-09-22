@@ -27,10 +27,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+
 public class BaseTestClass {
 	
 	public static WebDriver driver;
-	public Logger logger; // Log4j
+	public static Logger logger; // Log4j
 	public Properties prop;
 	
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
@@ -75,7 +78,7 @@ public class BaseTestClass {
 		}
 		
 		
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(prop.getProperty("appURL"));
 		driver.manage().window().maximize();
@@ -108,6 +111,22 @@ public class BaseTestClass {
 		File targetFile = new File(targetFilePath);
 		sourceFile.renameTo(targetFile);
 		return targetFilePath;
+	}
+	
+	public void loginSetup() {
+		logger.info("******** Logging in to test Logout *********");
+		HomePage hp = new HomePage(driver);
+		hp.clickMyAccount();
+		logger.info("clicked on MyAccount.....");
+		hp.clickLogin();
+		logger.info("clicked on login.....");
+		
+		LoginPage lgnPage = new LoginPage(driver);
+		logger.info("passing login credentials.....");
+		lgnPage.setEmail(prop.getProperty("email"));
+		lgnPage.setPassword(prop.getProperty("password"));
+		lgnPage.clickLogin();
+		logger.info("clicked login button.....");
 	}
 
 }
