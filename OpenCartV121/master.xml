@@ -17,7 +17,8 @@
       	<!-- <class name="testCases.TC005_LG_ApplicationSession"/> -->
       	<!-- <class name="testCases.TC006_LG_BrowseBack"/> -->
       	<!-- <class name="testCases.TC007_LG_NoLogoutBeforeLogin"/> -->
-      	<class name="testCases.TC008_LG_NoLogoutWhenRegister"/>
+      	<!-- <class name="testCases.TC008_LG_NoLogoutWhenRegister"/> -->
+      	<class name="testCases.TC009_FP_ResetPasswordTest"/>
     </classes>
   </test> <!-- Test -->
   

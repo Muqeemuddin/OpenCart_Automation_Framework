@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-22T17:38:56 GMT-05:00" name="Grouping Suite" finished-at="2025-09-22T17:40:40 GMT-05:00" duration-ms="103968">
+  <suite started-at="2025-09-23T14:54:52 GMT-05:00" name="Master Suite" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="72466">
     <groups>
       <group name="Master">
-        <method signature="TC004_LogoutTest.verify_account_logout()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" name="verify_account_logout" class="testCases.TC004_LogoutTest"/>
-        <method signature="TC004_LogoutTest.verify_account_logout_HomePage()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" name="verify_account_logout_HomePage" class="testCases.TC004_LogoutTest"/>
-        <method signature="TC006_LG_BrowseBack.verify_browseBack()[pri:0, instance:testCases.TC006_LG_BrowseBack@62ea3440]" name="verify_browseBack" class="testCases.TC006_LG_BrowseBack"/>
-        <method signature="TC007_LG_NoLogoutBeforeLogin.verify_no_logout_before_login()[pri:0, instance:testCases.TC007_LG_NoLogoutBeforeLogin@27953a83]" name="verify_no_logout_before_login" class="testCases.TC007_LG_NoLogoutBeforeLogin"/>
-        <method signature="TC008_LG_NoLogoutWhenRegister.verify_no_logout_when_register()[pri:0, instance:testCases.TC008_LG_NoLogoutWhenRegister@556d0826]" name="verify_no_logout_when_register" class="testCases.TC008_LG_NoLogoutWhenRegister"/>
-        <method signature="TC001_AccountResgistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@6b9ce1bf]" name="verify_account_registration" class="testCases.TC001_AccountResgistrationTest"/>
-        <method signature="TC002_LoginTest.verify_account_login()[pri:0, instance:testCases.TC002_LoginTest@79da1ec0]" name="verify_account_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC009_FP_ResetPasswordTest.verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" name="verify_password_reset" class="testCases.TC009_FP_ResetPasswordTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC004_LogoutTest.verify_account_logout()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" name="verify_account_logout" class="testCases.TC004_LogoutTest"/>
-        <method signature="TC004_LogoutTest.verify_account_logout_HomePage()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" name="verify_account_logout_HomePage" class="testCases.TC004_LogoutTest"/>
-        <method signature="TC006_LG_BrowseBack.verify_browseBack()[pri:0, instance:testCases.TC006_LG_BrowseBack@62ea3440]" name="verify_browseBack" class="testCases.TC006_LG_BrowseBack"/>
-        <method signature="TC007_LG_NoLogoutBeforeLogin.verify_no_logout_before_login()[pri:0, instance:testCases.TC007_LG_NoLogoutBeforeLogin@27953a83]" name="verify_no_logout_before_login" class="testCases.TC007_LG_NoLogoutBeforeLogin"/>
-        <method signature="TC008_LG_NoLogoutWhenRegister.verify_no_logout_when_register()[pri:0, instance:testCases.TC008_LG_NoLogoutWhenRegister@556d0826]" name="verify_no_logout_when_register" class="testCases.TC008_LG_NoLogoutWhenRegister"/>
-        <method signature="TC002_LoginTest.verify_account_login()[pri:0, instance:testCases.TC002_LoginTest@79da1ec0]" name="verify_account_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC009_FP_ResetPasswordTest.verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" name="verify_password_reset" class="testCases.TC009_FP_ResetPasswordTest"/>
       </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC001_AccountResgistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@6b9ce1bf]" name="verify_account_registration" class="testCases.TC001_AccountResgistrationTest"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-09-22T17:38:56 GMT-05:00" name="Test" finished-at="2025-09-22T17:40:40 GMT-05:00" duration-ms="103968">
-      <class name="testCases.TC007_LG_NoLogoutBeforeLogin">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_LG_NoLogoutBeforeLogin@27953a83]" started-at="2025-09-22T17:40:14 GMT-05:00" name="setup" finished-at="2025-09-22T17:40:25 GMT-05:00" duration-ms="11057" status="PASS">
+    <test started-at="2025-09-23T14:54:52 GMT-05:00" name="Test" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="72466">
+      <class name="testCases.TC009_FP_ResetPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:54:52 GMT-05:00" name="setup" finished-at="2025-09-23T14:55:44 GMT-05:00" duration-ms="51829" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[linux]]>
               </value>
             </param>
             <param index="1">
@@ -43,149 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_no_logout_before_login()[pri:0, instance:testCases.TC007_LG_NoLogoutBeforeLogin@27953a83]" started-at="2025-09-22T17:40:25 GMT-05:00" name="verify_no_logout_before_login" finished-at="2025-09-22T17:40:26 GMT-05:00" duration-ms="1029" status="PASS">
+        <test-method signature="verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:55:44 GMT-05:00" name="verify_password_reset" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="20163" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_no_logout_before_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_LG_NoLogoutBeforeLogin@27953a83]" started-at="2025-09-22T17:40:26 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:40:26 GMT-05:00" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC007_LG_NoLogoutBeforeLogin -->
-      <class name="testCases.TC004_LogoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" started-at="2025-09-22T17:39:39 GMT-05:00" name="setup" finished-at="2025-09-22T17:39:50 GMT-05:00" duration-ms="10504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_logout()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" started-at="2025-09-22T17:39:50 GMT-05:00" name="verify_account_logout" finished-at="2025-09-22T17:39:55 GMT-05:00" duration-ms="4870" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_logout -->
-        <test-method signature="verify_account_logout_HomePage()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" started-at="2025-09-22T17:39:55 GMT-05:00" name="verify_account_logout_HomePage" finished-at="2025-09-22T17:39:56 GMT-05:00" depends-on-methods="testCases.TC004_LogoutTest.verify_account_logout" duration-ms="1001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_logout_HomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_LogoutTest@4bef0fe3]" started-at="2025-09-22T17:39:56 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:39:56 GMT-05:00" duration-ms="105" status="PASS">
+        </test-method> <!-- verify_password_reset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:56:04 GMT-05:00" name="tearDown" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_LogoutTest -->
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@79da1ec0]" started-at="2025-09-22T17:39:21 GMT-05:00" name="setup" finished-at="2025-09-22T17:39:35 GMT-05:00" duration-ms="13464" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_login()[pri:0, instance:testCases.TC002_LoginTest@79da1ec0]" started-at="2025-09-22T17:39:35 GMT-05:00" name="verify_account_login" finished-at="2025-09-22T17:39:39 GMT-05:00" duration-ms="4493" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@79da1ec0]" started-at="2025-09-22T17:39:39 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:39:39 GMT-05:00" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountResgistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountResgistrationTest@6b9ce1bf]" started-at="2025-09-22T17:38:57 GMT-05:00" name="setup" finished-at="2025-09-22T17:39:09 GMT-05:00" duration-ms="12772" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@6b9ce1bf]" started-at="2025-09-22T17:39:09 GMT-05:00" name="verify_account_registration" finished-at="2025-09-22T17:39:21 GMT-05:00" duration-ms="11702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountResgistrationTest@6b9ce1bf]" started-at="2025-09-22T17:39:21 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:39:21 GMT-05:00" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountResgistrationTest -->
-      <class name="testCases.TC008_LG_NoLogoutWhenRegister">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_LG_NoLogoutWhenRegister@556d0826]" started-at="2025-09-22T17:40:26 GMT-05:00" name="setup" finished-at="2025-09-22T17:40:37 GMT-05:00" duration-ms="10701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_no_logout_when_register()[pri:0, instance:testCases.TC008_LG_NoLogoutWhenRegister@556d0826]" started-at="2025-09-22T17:40:37 GMT-05:00" name="verify_no_logout_when_register" finished-at="2025-09-22T17:40:40 GMT-05:00" duration-ms="3503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_no_logout_when_register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_LG_NoLogoutWhenRegister@556d0826]" started-at="2025-09-22T17:40:40 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:40:40 GMT-05:00" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC008_LG_NoLogoutWhenRegister -->
-      <class name="testCases.TC006_LG_BrowseBack">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_LG_BrowseBack@62ea3440]" started-at="2025-09-22T17:39:56 GMT-05:00" name="setup" finished-at="2025-09-22T17:40:07 GMT-05:00" duration-ms="11022" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_browseBack()[pri:0, instance:testCases.TC006_LG_BrowseBack@62ea3440]" started-at="2025-09-22T17:40:07 GMT-05:00" name="verify_browseBack" finished-at="2025-09-22T17:40:14 GMT-05:00" duration-ms="6688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_browseBack -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_LG_BrowseBack@62ea3440]" started-at="2025-09-22T17:40:14 GMT-05:00" name="tearDown" finished-at="2025-09-22T17:40:14 GMT-05:00" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC006_LG_BrowseBack -->
+      </class> <!-- testCases.TC009_FP_ResetPasswordTest -->
     </test> <!-- Test -->
-  </suite> <!-- Grouping Suite -->
+  </suite> <!-- Master Suite -->
 </testng-results>
