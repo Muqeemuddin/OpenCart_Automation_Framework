@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-23T14:54:52 GMT-05:00" name="Master Suite" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="72466">
+  <suite started-at="2025-09-23T20:28:44 GMT-05:00" name="Master Suite" finished-at="2025-09-23T20:29:19 GMT-05:00" duration-ms="35831">
     <groups>
-      <group name="Master">
-        <method signature="TC009_FP_ResetPasswordTest.verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" name="verify_password_reset" class="testCases.TC009_FP_ResetPasswordTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC009_FP_ResetPasswordTest.verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" name="verify_password_reset" class="testCases.TC009_FP_ResetPasswordTest"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-09-23T14:54:52 GMT-05:00" name="Test" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="72466">
-      <class name="testCases.TC009_FP_ResetPasswordTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:54:52 GMT-05:00" name="setup" finished-at="2025-09-23T14:55:44 GMT-05:00" duration-ms="51829" status="PASS">
+    <test started-at="2025-09-23T20:28:44 GMT-05:00" name="Test" finished-at="2025-09-23T20:29:19 GMT-05:00" duration-ms="35831">
+      <class name="testCases.TC010_SF_SearchProductsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:28:44 GMT-05:00" name="setup" finished-at="2025-09-23T20:28:59 GMT-05:00" duration-ms="15309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +23,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_password_reset()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:55:44 GMT-05:00" name="verify_password_reset" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="20163" status="PASS">
+        <test-method signature="verify_search_for_multiple_products()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:28:59 GMT-05:00" name="verify_search_for_multiple_products" finished-at="2025-09-23T20:29:03 GMT-05:00" duration-ms="3270" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_password_reset -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_FP_ResetPasswordTest@4879f0f2]" started-at="2025-09-23T14:56:04 GMT-05:00" name="tearDown" finished-at="2025-09-23T14:56:04 GMT-05:00" duration-ms="181" status="PASS">
+        </test-method> <!-- verify_search_for_multiple_products -->
+        <test-method signature="verify_search_of_existing_product()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:03 GMT-05:00" name="verify_search_of_existing_product" finished-at="2025-09-23T20:29:03 GMT-05:00" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_of_existing_product -->
+        <test-method signature="verify_search_of_existing_product_with_login()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:03 GMT-05:00" name="verify_search_of_existing_product_with_login" finished-at="2025-09-23T20:29:08 GMT-05:00" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_of_existing_product_with_login -->
+        <test-method signature="verify_search_of_non_existing_product()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:08 GMT-05:00" name="verify_search_of_non_existing_product" finished-at="2025-09-23T20:29:08 GMT-05:00" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_of_non_existing_product -->
+        <test-method signature="verify_search_page_with_no_product()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:08 GMT-05:00" name="verify_search_page_with_no_product" finished-at="2025-09-23T20:29:19 GMT-05:00" duration-ms="10612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_page_with_no_product -->
+        <test-method signature="verify_search_with_no_product()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:19 GMT-05:00" name="verify_search_with_no_product" finished-at="2025-09-23T20:29:19 GMT-05:00" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_search_with_no_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_SF_SearchProductsTest@1080b026]" started-at="2025-09-23T20:29:19 GMT-05:00" name="tearDown" finished-at="2025-09-23T20:29:19 GMT-05:00" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC009_FP_ResetPasswordTest -->
+      </class> <!-- testCases.TC010_SF_SearchProductsTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

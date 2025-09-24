@@ -8,13 +8,13 @@
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC005_LG_ApplicationSession">
+      <class name="testCases.TC010_SF_SearchProductsTest">
         <methods>
-          <include name="verify_application_session"/>
+          <include name="verify_search_for_multiple_products"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC005_LG_ApplicationSession -->
+      </class> <!-- testCases.TC010_SF_SearchProductsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

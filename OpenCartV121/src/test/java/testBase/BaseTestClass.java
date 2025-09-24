@@ -114,7 +114,7 @@ public class BaseTestClass {
 	}
 	
 	public void loginSetup() {
-		logger.info("******** Logging in to test Logout *********");
+		logger.info("******** Logging in for testing *********");
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
 		logger.info("clicked on MyAccount.....");
